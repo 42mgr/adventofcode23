@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/mgraf/Documents/adventofcode23",
-      "program": "/home/mgraf/Documents/adventofcode23/build/Debug/outDebug",
+      "cwd": "/home/mgraf/Documents/adventofcode23/day01",
+      "program": "/home/mgraf/Documents/adventofcode23/day01/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

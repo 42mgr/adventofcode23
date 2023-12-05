@@ -15,7 +15,7 @@ void replaceSubstring(std::string subString, std::string newString, std::string 
 void replaceNumbers(std::string &inputString)
 {
     std::pair<std::string, std::string> replacements[] = {
-        {"eightwo", "82"}, {"oneight", "18"}, {"threeight", "38"}, {"fiveight", "58"}, {"nineight", "98"}, {"one", "1"}, {"two", "2"}, {"three", "3"}, {"four", "4"}, {"five", "5"}, {"six", "6"}, {"seven", "7"}, {"eight", "8"}, {"nine", "9"}};
+        {"one", "o1e"}, {"two", "t2o"}, {"three", "th3ee"}, {"four", "fo4r"}, {"five", "f5ve"}, {"six", "s6x"}, {"seven", "se7en"}, {"eight", "ei8ht"}, {"nine", "n9ne"}};
     for (const auto &replacement : replacements)
     {
         size_t pos = inputString.find(replacement.first);
@@ -45,9 +45,9 @@ int main()
     std::string line;
     while (std::getline(inputFile, line))
     {
-       //std::cout << line << " " << std::endl;
+        // std::cout << line << " " << std::endl;
         replaceNumbers(line);
-        //std::cout << line << " " << std::endl;
+        // std::cout << line << " " << std::endl;
         int length = line.length();
         int i = 0;
         while (!isdigit(line[i]))
